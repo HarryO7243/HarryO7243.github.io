@@ -21,7 +21,13 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
-background-color: #40E0D0;
+background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bc031f+0,8f0222+33,3d0023+100 */
+background: #bc031f; /* Old browsers */
+background: -moz-linear-gradient(top,  #bc031f 0%, #8f0222 33%, #3d0023 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #bc031f 0%,#8f0222 33%,#3d0023 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #bc031f 0%,#8f0222 33%,#3d0023 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc031f', endColorstr='#3d0023',GradientType=0 ); /* IE6-9 */
+
 }
 
 .container {
